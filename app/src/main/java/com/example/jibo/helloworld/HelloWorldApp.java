@@ -2,7 +2,6 @@ package com.example.jibo.helloworld;
 
 import android.app.Application;
 
-import com.jibo.atk.utils.Commons;
 import com.jibo.rom.sdk.JiboRemoteControl;
 
 /**
