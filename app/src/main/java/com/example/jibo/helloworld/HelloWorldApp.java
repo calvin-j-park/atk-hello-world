@@ -14,8 +14,8 @@ public class HelloWorldApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Commons.ROOT_ENDPOINT = Commons.STG_ENDPOINT;
-        JiboRemoteControl.init(this, "rom_mobile_test",
-                "xf4us9bcHAfxMAqEZ3LQLJ927K9vKUMiquQNm6fwHV4uGRzmrhgFRdRAFzXE8izF");
+
+        JiboRemoteControl.init(this, "id-here",
+                "secret-here");
     }
 }
