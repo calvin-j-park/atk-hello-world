@@ -11,9 +11,8 @@ repositories {
 
 android {
     compileSdkVersion 26
-    buildToolsVersion "26.0.0"
     defaultConfig {
-        applicationId "com.calvin.romtest"
+        applicationId "com.example.jibo.helloworld"
         minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
@@ -44,5 +43,4 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     testCompile 'junit:junit:4.12'
-
 }

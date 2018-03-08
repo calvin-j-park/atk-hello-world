@@ -1,4 +1,4 @@
-package com.calvin.romtest;
+package com.example.jibo.helloworld;
 
 import android.app.Application;
 
@@ -6,10 +6,10 @@ import com.jibo.atk.utils.Commons;
 import com.jibo.rom.sdk.JiboRemoteControl;
 
 /**
- * Created by calvinator on 1/9/18.
+ * Created by Jibo, Inc. on 3/8/18.
  */
 
-public class RomTestApplication extends Application{
+public class HelloWorldApp extends Application {
 
     @Override
     public void onCreate() {

@@ -1,4 +1,4 @@
-package com.calvin.romtest;
+package com.example.jibo.helloworld;
 
 import org.junit.Test;
 
